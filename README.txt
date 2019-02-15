@@ -12,7 +12,9 @@ Steps to be carried out:
 To test:
 
 run from cmd:
-
+cd to project dir
 gradle clean
 gradle fatJar
+
+cd to /build/libs
 java -jar log-parse-util-1.0.jar
